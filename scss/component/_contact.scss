@@ -1,0 +1,107 @@
+.contact {
+    &-bg {
+        background: #2b0b2d url('../../images/header.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+}
+
+.form-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/content.png") no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+.form__address,
+.form__phone,
+.form__web {
+    padding: 45px 30px;
+    width: 523px;
+    &-title,
+    & p {
+        padding-bottom: 25px;
+    }
+}
+
+
+
+.form__address-title,
+.form__phone-title,
+.form__web-title, .form__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-family:"Raleway Heavy";
+    font-size: 1.5rem;
+}
+
+.form__address > p,
+.form__phone > p,
+.form__web > p {
+    color: #ffffff;
+    font-size: 0.925rem;
+    font-family:"Roboto Regular";
+}
+
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.form__info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.form__title {
+    padding-bottom: 55px;
+}
+
+.form-box {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/content.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    padding: 50px 30px;
+
+    & input {
+        border: none;
+        // color: #a9a9b6;
+    }
+
+    & input,
+    & textarea {
+        display: block;
+        width: 100%;
+        padding: 18px 20px;
+        margin-bottom: 25px;
+        color: #a9a9b6;
+        background-color: transparent;
+        outline: 1px solid #ffffff;
+    }
+
+
+    & textarea {
+        resize: none;
+        min-height: 200px;
+    }
+}
+
+.form__submit {
+    display: flex;
+    justify-content: end;
+}
+
+::placeholder {
+    color: #a9a9b6;
+    opacity: 1; 
+}
+

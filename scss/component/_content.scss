@@ -1,0 +1,36 @@
+.main__body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.main__image-pic {
+    display: block;
+
+}
+
+.main__content {
+    max-width: 640px;
+    padding: 15px;
+
+    &-title {
+        color: #737373;
+        font-size: 1.125rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    &-desc,
+    &-desc-2 {
+        color: #9f9f9f;
+        line-height: 1.7;
+        padding-bottom: 40px;
+
+        &:last-child {
+            padding-bottom: 70px;
+        }
+    }
+}

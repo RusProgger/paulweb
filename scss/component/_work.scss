@@ -1,0 +1,82 @@
+.work {
+    min-height: 800px;
+    
+    &-bg {
+        background-color: #f6f6f6;
+    }
+
+    &__title {
+        padding-top: 110px;
+        padding-bottom: 30px;
+        font-family:"Raleway Heavy";
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    &__title,
+    &__desc {
+        text-align: center;
+    }
+
+    &__desc {
+        color: #6f6f6f;
+        font-family:"Roboto Medium";
+        font-size: 1rem;
+        padding-bottom: 60px;
+    }
+
+    // cards
+
+    &-cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        padding-bottom: 100px;
+        
+    }
+
+    // card color 
+
+    &-card-colors-blue {
+        background-color: #10c6fc;
+    }
+
+    &-card-colors-crusta {
+        background-color: #835aeb;
+    }
+
+    &-card-colors-sapphire {
+        background-color: #002453;
+    }
+
+    &-card-colors-red {
+        background-color: #ff2b4a;
+    }
+
+    &-card-body {
+        width: 287px;
+        min-height: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    &-card-icon {
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    &-card-text {
+        font-family:"Raleway Heavy";
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: $colorText;
+        font-weight: normal;
+        letter-spacing: 2px;
+    }
+}
+

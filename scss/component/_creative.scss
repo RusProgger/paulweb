@@ -1,0 +1,49 @@
+.creative {
+    min-height: 400px;
+    padding-top: 145px;
+    padding-bottom: 125px;
+    &-bg {
+        background-color: #64cbc0;
+    }
+
+    &__content {
+        width: 520px;
+    }
+
+    &__text {
+        font-family:"Roboto Regular";
+        font-size: 1rem;
+        line-height: 1.5;
+        position: relative;
+
+        &::before {
+            content: url(../../images/scobs.png);
+            color: #317688; 
+            position: absolute;
+            top: -70px;
+            left: 0px;
+            display: block;
+        }
+    }
+
+    &__signature {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    &__title {
+        padding-bottom: 10px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    &__title,
+    &__desc {
+        color: #2d5b56;
+    }
+
+    &__desc {
+        font-size: 0.925rem;
+    }
+}

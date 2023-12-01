@@ -1,0 +1,19 @@
+.btn {
+    padding: 17px 60px;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    
+    &:hover,
+    &:active {
+        background-color: #f3193a;
+    }
+
+    &-defaul {
+        background-color: #ff2b4a;
+        color: #ffffff;
+        font-family:"Roboto Medium";
+    }
+}

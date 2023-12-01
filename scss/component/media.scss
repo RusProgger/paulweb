@@ -1,0 +1,57 @@
+@media (max-width: 1093px) {
+    .main__image img {
+        height: 450px;
+    }
+}
+
+@media (max-width: 995px) {
+
+    .main__body {
+        padding-top: 60px;
+    }
+
+    .main__image img {
+        height: 320px;
+        display: block;
+    }
+
+    .main__content-title {
+        padding-top: 10px;
+    }
+
+    .main__content-desc, 
+    .main__content-desc-2 {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 910px) {
+    
+    .content__title {
+        font-size: 2.5rem;
+    }
+
+    .content__desc {
+        font-size: 1rem;
+    }
+
+    .main__image img {
+        display: none;
+    }
+
+    .main__content {
+        text-align: center;
+    }
+
+    .main__content-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .work-cards {
+        gap: 8px;
+    }
+    .work-card-body  {
+        width: 25%;
+    }
+}

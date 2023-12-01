@@ -1,0 +1,66 @@
+.education {
+    
+    &-work__wrapper {
+        display: flex;
+    }
+
+    &-work-bg {
+        background: #2b0b2d url('../../images/header.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 120px;
+        padding-bottom: 40px;
+        
+    }
+    &-work__work-experience {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/content.png") no-repeat;
+        background-size: cover;
+        background-position: center center;
+        max-width: 50%;
+        margin-right: 15px;
+    }
+
+    &-work__work-content {
+        padding: 60px 50px 60px 24px;
+        color: #ebebed;
+        border-radius: 5px;
+    }
+ 
+
+    &-work__work-title {
+        text-align: left;
+        font-size: 1.625rem;
+        padding-bottom: 60px;
+        opacity: 1;
+    }
+
+    &-work__work-subtitle,
+    &-work__work-text-time {
+        padding-bottom: 20px;
+    }
+
+    &-work__work-subtitle {
+        font-family:"Roboto Medium";
+        font-size: 1.1rem;
+    }
+
+    &-work__work-text-time {
+        color: #d7d8dd;
+        font-weight: bold;
+    }
+
+    &-work__work-text {
+        color: #a6a6b3;
+        font-size: 1rem;
+    }
+
+    &-work__work-text-line::after {
+        content: '';
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #7f8498;
+            margin-top: 25px;
+            margin-bottom: 30px;
+    }
+}

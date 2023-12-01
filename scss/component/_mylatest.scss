@@ -1,0 +1,50 @@
+.my-latest {
+    padding-bottom: 110px;
+
+    &__title {
+        padding-top: 120px;
+        font-size: 2.5rem;
+        font-family:"Raleway Heavy";
+        font-weight: 500;
+        color: #000000;
+        text-transform: capitalize;
+    }
+    &__desc {
+        padding-top: 60px;
+        color: #737373;
+        font-family:"Roboto Medium";
+        padding-bottom: 35px;
+    }
+
+    &__title,
+    &__desc {
+        text-align: center;
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__card-1 {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        gap: 12px;
+
+        & img {
+            display: block;
+        }
+
+        // & .square-2{
+        //     margin-left: 12px;
+        // }
+
+        // & .square-3 {
+        //     padding-top: 10px;
+        // }
+    }
+
+}
+
+

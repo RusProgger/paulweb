@@ -1,0 +1,27 @@
+.footer {
+
+    &-bg {
+        background-color: #222222;
+    }
+
+    &__info p {
+        font-size: 0.75rem;
+        color: #a0a0a0;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 55px 0;
+
+    &__social {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    &__social a img {
+        margin: 10px;
+        
+    }
+}
